@@ -10,7 +10,6 @@ public class FeedbackDTO {
     private String comments;
     private int rating;
 
-
     public int getRatings() {
         return rating;
     }

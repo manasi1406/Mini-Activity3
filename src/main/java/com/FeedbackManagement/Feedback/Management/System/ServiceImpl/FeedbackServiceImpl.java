@@ -32,7 +32,6 @@ public class FeedbackServiceImpl implements FeedbackService {
         FeedbackEntity savedEntity = feedbackRepository.save(feedbackEntity);
         return convertToDTO(savedEntity);
     }
-
     @Override
     public List<FeedbackDTO> getAllFeedback() {
         List<FeedbackEntity> feedbackEntities = feedbackRepository.findAll();

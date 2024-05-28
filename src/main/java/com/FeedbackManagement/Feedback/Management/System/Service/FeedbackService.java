@@ -5,6 +5,7 @@ import com.FeedbackManagement.Feedback.Management.System.Entity.FeedbackEntity;
 
 import java.util.List;
 
+
 public interface FeedbackService {
 
     List<FeedbackEntity> getFeedBacks();

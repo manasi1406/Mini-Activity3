@@ -64,7 +64,6 @@ public class ServiceImplTest {
         assertEquals(feedbackDTO.getComments(), result.getComments());
         assertEquals(feedbackDTO.getRatings(), result.getRatings());
     }
-
         @Test
         public void testGetAllFeedback() {
             // behavior of the repository

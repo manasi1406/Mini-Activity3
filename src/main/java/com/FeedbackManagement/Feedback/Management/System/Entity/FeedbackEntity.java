@@ -12,7 +12,6 @@ import lombok.Setter;
 @Data
 @Entity
 public class FeedbackEntity {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
